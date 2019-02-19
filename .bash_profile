@@ -1,7 +1,4 @@
 export TERM=xterm-256color
-if [ "$INSIDE_EMACS" ]; then
-  export TERM=eterm-color
-fi
 export GOPATH="$HOME/.go"
 export PATH=$GOPATH/bin:$PATH # go
 export PATH=/Users/mac/.depot_tools:$PATH # google
