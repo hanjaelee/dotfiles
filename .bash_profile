@@ -13,8 +13,7 @@ eval "$(pyenv init -)" # pyenv init
 export DJANGO_SETTINGS_MODULE=hanjaelee.settings
 
 # colorful terminal
-# export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\W\[\033[m\]\$ "
-export PS1="\[\e[32m\]\W\[\e[m\] \[\e[36m\]\\$\[\e[m\] "
+export PS1="\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] "
 
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
