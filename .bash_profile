@@ -1,6 +1,5 @@
 export TERM=xterm-256color
 export GOPATH="$HOME/Desktop/go"
-export GOROOT="$HOME/go"
 export PATH=$GOPATH/bin:$PATH # go
 export PATH="/usr/local/sbin:$PATH"
 export PATH=~/.depot_tools:$PATH # google
