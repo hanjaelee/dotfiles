@@ -77,7 +77,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 export TERM=xterm-256color
-export GOPATH="$HOME/Desktop/go"
+export GOPATH="$HOME/go"
 export PATH="/usr/local/sbin:$PATH"
 export PATH=$GOPATH/bin:$PATH # go
 export PATH=~/.depot_tools:$PATH # google
