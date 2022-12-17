@@ -10,7 +10,6 @@ export GOFLAGS=-mod=vendor
 
 alias emacs="emacs -nw"
 alias vi=vim
-eval "$(pyenv init -)" # pyenv init
 export DJANGO_SETTINGS_MODULE=hanjaelee.settings
 
 # colorful terminal
